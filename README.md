@@ -11,6 +11,8 @@ Las notebooks utilizadas son:
 
 En el archivo `requirements.txt` se encuentran las librerías necesarias para correr las notebooks.
 
+Los archivos intermedios generados para preprocesar los datos no se pueden subir a Github ya que exceden los 25MB. Estos archivos se guardan en una carpeta llamada /preprocessed_dfs.
+
 El archivo `hiperparametros.xlsx` indica las distintas pruebas que se corrieron y los hiperparámetros utilizados en cada una junto con el score correspondiente.El archivo con el mejor resultado se obtuvo con `submissions/submission-best.csv`.
 
 ![Mejor resultado](best_submission.png)
